@@ -1,0 +1,4 @@
+﻿  a.cpp
+C:\Users\neopk\source\repos\a\a\a.cpp(33,13): warning C4101: 'array': variable local sin referencia
+C:\Users\neopk\source\repos\a\a\a.cpp(32,10): warning C4101: 'c': variable local sin referencia
+  a.vcxproj -> C:\Users\neopk\source\repos\a\Debug\a.exe
