@@ -4,7 +4,7 @@ void Discord::Initialize()
 {
 	DiscordEventHandlers Handle;
 	memset(&Handle, 0, sizeof(Handle));
-	Discord_Initialize("774000935198392360", &Handle, 1, NULL); // API KEY
+	Discord_Initialize("API KEY HERE", &Handle, 1, NULL); // API KEY
 }
 
 void Discord::Update()
@@ -18,9 +18,9 @@ void Discord::Update()
     discordPresence.largeImageKey = "";
     discordPresence.smallImageKey = "";
     discordPresence.smallImageText = "Test_Logo";
-    discordPresence.partyId = "ae488379-351d-4a4f-ad32-2b9b01c91657";
+    discordPresence.partyId = "";
     discordPresence.partySize = 1;
     discordPresence.partyMax = 5;
-    discordPresence.joinSecret = "MTI4NzM0OjFpMmhuZToxMjMxMjM= ";
+    discordPresence.joinSecret = "";
     Discord_UpdatePresence(&discordPresence);
 }
